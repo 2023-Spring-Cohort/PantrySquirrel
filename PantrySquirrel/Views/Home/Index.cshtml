@@ -10,13 +10,15 @@
     <p>Browse <a href="https://docs.microsoft.com/aspnet/core">Recipes</a>.</p>
 </div>
 <p>What Ingredients do you have?</p>
-<input type="text" name="UserIngredients" id="UI" />
+<input type="text" name="UserIngredients" placeholder="Your Food Items" id="UI" />
 <button id="submitFoodItem" onclick="AddIngredient()">Add to list</button>
 <ul id="foodItems" name="userFoodItems"></ul>
+<input type="text" name="Filters" placeholder="Dietary Restrictions" id="diet"/>
+<button  id="submit-diet" onclick="AddDietary()">add diet</button><br>
 
 <form method="post" asp-controller="Home" asp-action="Index">
     <input type="hidden" name="userIngredientsString" id="userIngredientsString" />
-    <button type="submit">Send Food Items</button>
+    <button type="submit" id="submit">Look For Recipes</button>
 </form>
 
 <table>

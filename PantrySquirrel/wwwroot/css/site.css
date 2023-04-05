@@ -65,3 +65,7 @@ ul {
     flex-direction: row;
     color: red;
 }
+
+#submit{
+    margin-top: 10px;
+}
