@@ -8,39 +8,26 @@
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/PantrySquirrel.styles.css" asp-append-version="true" />
 </head>
+@*------ Nav Bar Section -----*@
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Pantry Squirrel</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-
-                <button onclick="openNav()" class="dropbtn">&#9776; Welcome!</button>
-                <!--The overlay-->
-                <div id="myNav" class="overlay">
-                    <!--Button to close the overlay nav-->
-                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                    <!--Overlay content-->
-                    <div class="overlay-content">
-                        <a class="nav-browse" asp-area="" asp-controller="Home" asp-action="BrowseRecipes">Browse Recipes</a>
-                        <a class="nav-how" asp-area="" asp-controller="Home" asp-action="HowItWorks">How It Works</a>
-                    </div>
-                </div>
-
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-search" asp-area="" asp-controller="RecipeSearchResults" asp-action="ShowSearchForm">Search</a>
-                        </li>
-                    </ul>
-                    <partial name="_LoginPartial" />
+        <div id="dropDownWrapper">
+            @*----- Drop Down Menu -----*@
+            <span onclick="openNav()">&#9776;open this menu</span>
+            <!--The overlay-->
+            <div id="myNav" class="overlay">
+                <!--Button to close the overlay nav-->
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <!--Overlay content-->
+                <div class="overlay-content">
+                    <a class="nav-browse" asp-area="" asp-controller="Home" asp-action="BrowseRecipes">Browse Recipes</a>
+                    <a class="nav-how" asp-area="" asp-controller="Home" asp-action="HowItWorks">How It Works</a>
+                    <a href="https://jo-scar.github.io/">GitHub</a>
+                    <a href="https://www.linkedin.com/in/jo-scar">LinkedIn</a>
                 </div>
             </div>
-        </nav>
-    </header>
+        </div>
+</header>
     <div class="container">
         <main role="main" class="pb-3">
             @RenderBody()
