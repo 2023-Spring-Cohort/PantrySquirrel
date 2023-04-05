@@ -1,0 +1,36 @@
+C:\Users\Mic\Documents\Repos\PROJECTS\Final Cohort Project\Pantry-Squirrel\ApiDataModels\bin\Debug\net6.0\ApiDataModels.deps.json
+C:\Users\Mic\Documents\Repos\PROJECTS\Final Cohort Project\Pantry-Squirrel\ApiDataModels\bin\Debug\net6.0\ApiDataModels.dll
+C:\Users\Mic\Documents\Repos\PROJECTS\Final Cohort Project\Pantry-Squirrel\ApiDataModels\bin\Debug\net6.0\ApiDataModels.pdb
+C:\Users\Mic\Documents\Repos\PROJECTS\Final Cohort Project\Pantry-Squirrel\ApiDataModels\obj\Debug\net6.0\ApiDataModels.csproj.AssemblyReference.cache
+C:\Users\Mic\Documents\Repos\PROJECTS\Final Cohort Project\Pantry-Squirrel\ApiDataModels\obj\Debug\net6.0\ApiDataModels.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mic\Documents\Repos\PROJECTS\Final Cohort Project\Pantry-Squirrel\ApiDataModels\obj\Debug\net6.0\ApiDataModels.AssemblyInfoInputs.cache
+C:\Users\Mic\Documents\Repos\PROJECTS\Final Cohort Project\Pantry-Squirrel\ApiDataModels\obj\Debug\net6.0\ApiDataModels.AssemblyInfo.cs
+C:\Users\Mic\Documents\Repos\PROJECTS\Final Cohort Project\Pantry-Squirrel\ApiDataModels\obj\Debug\net6.0\ApiDataModels.csproj.CoreCompileInputs.cache
+C:\Users\Mic\Documents\Repos\PROJECTS\Final Cohort Project\Pantry-Squirrel\ApiDataModels\obj\Debug\net6.0\ApiDataModels.dll
+C:\Users\Mic\Documents\Repos\PROJECTS\Final Cohort Project\Pantry-Squirrel\ApiDataModels\obj\Debug\net6.0\refint\ApiDataModels.dll
+C:\Users\Mic\Documents\Repos\PROJECTS\Final Cohort Project\Pantry-Squirrel\ApiDataModels\obj\Debug\net6.0\ApiDataModels.pdb
+C:\Users\Mic\Documents\Repos\PROJECTS\Final Cohort Project\Pantry-Squirrel\ApiDataModels\obj\Debug\net6.0\ref\ApiDataModels.dll
+C:\Users\Crumrine Financial\Desktop\Pantry-Squirrel\ApiDataModels\bin\Debug\net6.0\ApiDataModels.deps.json
+C:\Users\Crumrine Financial\Desktop\Pantry-Squirrel\ApiDataModels\bin\Debug\net6.0\ApiDataModels.dll
+C:\Users\Crumrine Financial\Desktop\Pantry-Squirrel\ApiDataModels\bin\Debug\net6.0\ApiDataModels.pdb
+C:\Users\Crumrine Financial\Desktop\Pantry-Squirrel\ApiDataModels\obj\Debug\net6.0\ApiDataModels.csproj.AssemblyReference.cache
+C:\Users\Crumrine Financial\Desktop\Pantry-Squirrel\ApiDataModels\obj\Debug\net6.0\ApiDataModels.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Crumrine Financial\Desktop\Pantry-Squirrel\ApiDataModels\obj\Debug\net6.0\ApiDataModels.AssemblyInfoInputs.cache
+C:\Users\Crumrine Financial\Desktop\Pantry-Squirrel\ApiDataModels\obj\Debug\net6.0\ApiDataModels.AssemblyInfo.cs
+C:\Users\Crumrine Financial\Desktop\Pantry-Squirrel\ApiDataModels\obj\Debug\net6.0\ApiDataModels.csproj.CoreCompileInputs.cache
+C:\Users\Crumrine Financial\Desktop\Pantry-Squirrel\ApiDataModels\obj\Debug\net6.0\ApiDataModels.dll
+C:\Users\Crumrine Financial\Desktop\Pantry-Squirrel\ApiDataModels\obj\Debug\net6.0\refint\ApiDataModels.dll
+C:\Users\Crumrine Financial\Desktop\Pantry-Squirrel\ApiDataModels\obj\Debug\net6.0\ApiDataModels.pdb
+C:\Users\Crumrine Financial\Desktop\Pantry-Squirrel\ApiDataModels\obj\Debug\net6.0\ref\ApiDataModels.dll
+C:\REPOS\Pantry-Squirrel\ApiDataModels\bin\Debug\net6.0\ApiDataModels.deps.json
+C:\REPOS\Pantry-Squirrel\ApiDataModels\bin\Debug\net6.0\ApiDataModels.dll
+C:\REPOS\Pantry-Squirrel\ApiDataModels\bin\Debug\net6.0\ApiDataModels.pdb
+C:\REPOS\Pantry-Squirrel\ApiDataModels\obj\Debug\net6.0\ApiDataModels.csproj.AssemblyReference.cache
+C:\REPOS\Pantry-Squirrel\ApiDataModels\obj\Debug\net6.0\ApiDataModels.GeneratedMSBuildEditorConfig.editorconfig
+C:\REPOS\Pantry-Squirrel\ApiDataModels\obj\Debug\net6.0\ApiDataModels.AssemblyInfoInputs.cache
+C:\REPOS\Pantry-Squirrel\ApiDataModels\obj\Debug\net6.0\ApiDataModels.AssemblyInfo.cs
+C:\REPOS\Pantry-Squirrel\ApiDataModels\obj\Debug\net6.0\ApiDataModels.csproj.CoreCompileInputs.cache
+C:\REPOS\Pantry-Squirrel\ApiDataModels\obj\Debug\net6.0\ApiDataModels.dll
+C:\REPOS\Pantry-Squirrel\ApiDataModels\obj\Debug\net6.0\refint\ApiDataModels.dll
+C:\REPOS\Pantry-Squirrel\ApiDataModels\obj\Debug\net6.0\ApiDataModels.pdb
+C:\REPOS\Pantry-Squirrel\ApiDataModels\obj\Debug\net6.0\ref\ApiDataModels.dll

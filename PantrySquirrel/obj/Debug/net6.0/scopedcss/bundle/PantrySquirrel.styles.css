@@ -1,0 +1,98 @@
+/* _content/PantrySquirrel/Views/Shared/_Layout.cshtml.rz.scp.css */
+/* Top Nav Bar */
+
+/* The Overlay (background) */
+.overlay[b-49p1h4gmpt] {
+    /* Height & width depends on how you want to reveal the overlay (see JS below) */
+    height: 10%;
+    width: 100%;
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0); /* Black fallback color */
+    background-color: rgba(0,0,0, 0.9); /* Black w/opacity */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+}
+
+/* Position the content inside the overlay */
+.overlay-content[b-49p1h4gmpt] {
+    position: relative;
+    top: 25%; /*25% from the top*/
+    width: 100%; /*100% width*/
+    text-align: center; /*Centered text/links*/
+    margin-top: 30px; /*30px top margin to avoid conflict with the close button on smaller screens*/
+}
+
+/* The navigation links inside the overlay */
+.overlay a[b-49p1h4gmpt] {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block; /* Display block instead of inline */
+    transition: 0.5s; /* Transition effects on hover (color) */
+}
+
+    /* When you mouse over the navigation links, change their color */
+    .overlay a:hover[b-49p1h4gmpt], .overlay a:focus[b-49p1h4gmpt] {
+        color: #f1f1f1;
+    }
+
+/* Position the close button (top right corner) */
+.overlay .closebtn[b-49p1h4gmpt] {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+/*-------------------------------------------------------*/
+
+/*a.navbar-brand {
+    white-space: normal;
+    text-align: center;
+    word-break: break-all;
+}
+
+
+a {
+  color: #0077cc;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}*/
+
+/*.border-top {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom {
+  border-bottom: 1px solid #e5e5e5;
+}*/
+
+/*.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px;
+}*/

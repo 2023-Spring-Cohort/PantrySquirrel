@@ -1,0 +1,12 @@
+C:\Users\Mic\Documents\Repos\PROJECTS\Final Cohort Project\Pantry-Squirrel\UserDataModels\bin\Debug\net6.0\UserDataModels.deps.json
+C:\Users\Mic\Documents\Repos\PROJECTS\Final Cohort Project\Pantry-Squirrel\UserDataModels\bin\Debug\net6.0\UserDataModels.dll
+C:\Users\Mic\Documents\Repos\PROJECTS\Final Cohort Project\Pantry-Squirrel\UserDataModels\bin\Debug\net6.0\UserDataModels.pdb
+C:\Users\Mic\Documents\Repos\PROJECTS\Final Cohort Project\Pantry-Squirrel\UserDataModels\obj\Debug\net6.0\UserDataModels.csproj.AssemblyReference.cache
+C:\Users\Mic\Documents\Repos\PROJECTS\Final Cohort Project\Pantry-Squirrel\UserDataModels\obj\Debug\net6.0\UserDataModels.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mic\Documents\Repos\PROJECTS\Final Cohort Project\Pantry-Squirrel\UserDataModels\obj\Debug\net6.0\UserDataModels.AssemblyInfoInputs.cache
+C:\Users\Mic\Documents\Repos\PROJECTS\Final Cohort Project\Pantry-Squirrel\UserDataModels\obj\Debug\net6.0\UserDataModels.AssemblyInfo.cs
+C:\Users\Mic\Documents\Repos\PROJECTS\Final Cohort Project\Pantry-Squirrel\UserDataModels\obj\Debug\net6.0\UserDataModels.csproj.CoreCompileInputs.cache
+C:\Users\Mic\Documents\Repos\PROJECTS\Final Cohort Project\Pantry-Squirrel\UserDataModels\obj\Debug\net6.0\UserDataModels.dll
+C:\Users\Mic\Documents\Repos\PROJECTS\Final Cohort Project\Pantry-Squirrel\UserDataModels\obj\Debug\net6.0\refint\UserDataModels.dll
+C:\Users\Mic\Documents\Repos\PROJECTS\Final Cohort Project\Pantry-Squirrel\UserDataModels\obj\Debug\net6.0\UserDataModels.pdb
+C:\Users\Mic\Documents\Repos\PROJECTS\Final Cohort Project\Pantry-Squirrel\UserDataModels\obj\Debug\net6.0\ref\UserDataModels.dll

@@ -1,0 +1,47 @@
+﻿@model ApiDataModels.RecipeModels.RecipeSearchResults
+
+@{
+    ViewData["Title"] = "Welcome Page";
+}
+
+<div class="text-center">
+    <img class="squirrelPic" src="https://i.gifer.com/origin/ca/ca6bcdea62512f15f3de2001b4f19d72_w200.gif"/>
+    <h4 class="display-4">Do you not know what to eat but have a ton of random ingredients? Well Welcome to Pantry Squirrel! The App that helps you decide what to cook based off of what you already have.</h4>
+    <p>Browse <a href="https://docs.microsoft.com/aspnet/core">Recipes</a>.</p>
+</div>
+<p>What Ingredients do you have?</p>
+<input type="text" name="UserIngredients" id="UI" />
+<button id="submitFoodItem" onclick="AddIngredient()">Add to list</button>
+<ul id="foodItems" name="userFoodItems"></ul>
+
+<form method="post" asp-controller="Home" asp-action="Index">
+    <input type="hidden" name="userIngredientsString" id="userIngredientsString" />
+    <button type="submit">Send Food Items</button>
+</form>
+
+<table>
+    @foreach (var r in Model.hits)
+    {
+        <tr>
+            <td>
+                @r.recipe.label<br>
+                <img src="@r.recipe.image">
+            </td>
+        @for(int i = 0; i < @r.recipe.ingredients.Length; i++){
+                if (r.recipe.ingredients[i].hasIt)
+                {
+                    <td class="hasIt">
+                        @r.recipe.ingredients[i].food
+                    </td>
+                }
+                else
+                {
+                    <td class="notHasIt">
+                        @r.recipe.ingredients[i].food
+                    </td>
+                }
+              }
+        </tr>
+        
+    }
+</table>
