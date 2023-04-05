@@ -55,24 +55,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\HP\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Joe\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\REPOS\\Pantry-Squirrel\\ApiDataModels\\ApiDataModels.csproj",
+      "projectUniqueName": "C:\\Repo\\SpringCohort2023\\PantrySquirrel\\ApiDataModels\\ApiDataModels.csproj",
       "projectName": "ApiDataModels",
-      "projectPath": "C:\\REPOS\\Pantry-Squirrel\\ApiDataModels\\ApiDataModels.csproj",
-      "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-      "outputPath": "C:\\REPOS\\Pantry-Squirrel\\ApiDataModels\\obj\\",
+      "projectPath": "C:\\Repo\\SpringCohort2023\\PantrySquirrel\\ApiDataModels\\ApiDataModels.csproj",
+      "packagesPath": "C:\\Users\\Joe\\.nuget\\packages\\",
+      "outputPath": "C:\\Repo\\SpringCohort2023\\PantrySquirrel\\ApiDataModels\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\Joe\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -119,7 +114,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }
