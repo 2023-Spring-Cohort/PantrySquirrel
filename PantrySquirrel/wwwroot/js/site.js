@@ -25,6 +25,20 @@ function AddIngredient() {
     }
     ConvertingToString();
 }
+
+function AddDietary() {
+    let dietInputVal = document.getElementById("diet").value;
+    let dietTextNode = document.createTextNode(dietInputVal);
+    let dietNode = document.createElement("li");
+    dietNode.style.display = "none";
+    dietNode.appendChild(dietTextNode);
+    document.getElementById("foodItems").appendChild(dietNode);
+    if (diet.value != "") {
+        diet.value = ""
+    }
+    ConvertingToString()
+}
+
 function ConvertingToString() {
     const foodItems = document.getElementById("foodItems")
     const stringHolder = document.getElementById("userIngredientsString");
