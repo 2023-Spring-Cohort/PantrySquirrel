@@ -1,6 +1,24 @@
-﻿@{
+﻿@model ApiDataModels.RecipeModels.RecipeSearchResults
+@{
     ViewData["Title"] = "Browse Recipes";
 }
 <h1>@ViewData["See All Recipes"]</h1>
-
 <p>Hungry? Check Out Some Tasty Recipes!</p>
+<form method="post" asp-controller="Home" asp-action="BrowseRecipes">
+    <input type="text" name="recipeText" id="userRecipe" />
+    <button type="submit">Find a Recipe!</button>
+</form>
+@if (Model is not null)
+{
+    <table>
+        @foreach (var r in Model.hits)
+        {
+            <tr>
+                <td>
+                    <img src="@r.recipe.image">
+                    @r.recipe.label<br>
+                </td>
+            </tr>
+        }
+    </table>
+}

@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "zfsxEhHlXrdQ+a2bBHHkQ+0qwqD3UF7VWKI02kuAS3Cc9PWTdDXQCO4DpA2rw1gmZo3TIVwMxtiAlqAfXzkHBQ==",
+  "dgSpecHash": "42NsElqFkk2iBjK8Qywt3P80MQoFXJ4iSp1qG1IPoFQkOTPuOMgUO4gj2QnUdp1FDlB9DXQSLzq4tNcgARMjLw==",
   "success": true,
-  "projectFilePath": "C:\\REPOS\\Pantry-Squirrel\\ApiDataModels\\ApiDataModels.csproj",
+  "projectFilePath": "C:\\Repo\\SpringCohort2023\\PantrySquirrel\\ApiDataModels\\ApiDataModels.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\HP\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+    "C:\\Users\\Joe\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
   ],
   "logs": []
 }

@@ -34,3 +34,15 @@ C:\REPOS\Pantry-Squirrel\ApiDataModels\obj\Debug\net6.0\ApiDataModels.dll
 C:\REPOS\Pantry-Squirrel\ApiDataModels\obj\Debug\net6.0\refint\ApiDataModels.dll
 C:\REPOS\Pantry-Squirrel\ApiDataModels\obj\Debug\net6.0\ApiDataModels.pdb
 C:\REPOS\Pantry-Squirrel\ApiDataModels\obj\Debug\net6.0\ref\ApiDataModels.dll
+C:\Repo\SpringCohort2023\PantrySquirrel\ApiDataModels\bin\Debug\net6.0\ApiDataModels.deps.json
+C:\Repo\SpringCohort2023\PantrySquirrel\ApiDataModels\bin\Debug\net6.0\ApiDataModels.dll
+C:\Repo\SpringCohort2023\PantrySquirrel\ApiDataModels\bin\Debug\net6.0\ApiDataModels.pdb
+C:\Repo\SpringCohort2023\PantrySquirrel\ApiDataModels\obj\Debug\net6.0\ApiDataModels.csproj.AssemblyReference.cache
+C:\Repo\SpringCohort2023\PantrySquirrel\ApiDataModels\obj\Debug\net6.0\ApiDataModels.GeneratedMSBuildEditorConfig.editorconfig
+C:\Repo\SpringCohort2023\PantrySquirrel\ApiDataModels\obj\Debug\net6.0\ApiDataModels.AssemblyInfoInputs.cache
+C:\Repo\SpringCohort2023\PantrySquirrel\ApiDataModels\obj\Debug\net6.0\ApiDataModels.AssemblyInfo.cs
+C:\Repo\SpringCohort2023\PantrySquirrel\ApiDataModels\obj\Debug\net6.0\ApiDataModels.csproj.CoreCompileInputs.cache
+C:\Repo\SpringCohort2023\PantrySquirrel\ApiDataModels\obj\Debug\net6.0\ApiDataModels.dll
+C:\Repo\SpringCohort2023\PantrySquirrel\ApiDataModels\obj\Debug\net6.0\refint\ApiDataModels.dll
+C:\Repo\SpringCohort2023\PantrySquirrel\ApiDataModels\obj\Debug\net6.0\ApiDataModels.pdb
+C:\Repo\SpringCohort2023\PantrySquirrel\ApiDataModels\obj\Debug\net6.0\ref\ApiDataModels.dll

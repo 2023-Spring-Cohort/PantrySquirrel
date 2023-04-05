@@ -16,8 +16,6 @@ namespace PantrySquirrel.Controllers
             this.recipeSearch = recipeSearch;
         }
 
-
-
         public async Task<ActionResult> Index(string userIngredientsString)
         {
             var recipes = await recipeSearch.GetRecipes(userIngredientsString);
@@ -36,6 +34,13 @@ namespace PantrySquirrel.Controllers
             return View(recipes);
         }
 
+        [HttpPost]
+        public async Task<ActionResult> BrowseRecipes(string recipeText)
+        {
+            var recipes = await recipeSearch.GetRecipes(recipeText);
+            return View(recipes);
+        }
+
         public IActionResult BrowseRecipes()
         {
             return View();
@@ -51,9 +56,6 @@ namespace PantrySquirrel.Controllers
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
-
-
-
     }
 
 
