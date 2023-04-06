@@ -53,7 +53,7 @@ function ConvertingToString() {
 // ----------------- nav bar ---------------- //
 /* Open */
 function openNav() {
-    document.getElementById("myNav").style.height = "75%";
+    document.getElementById("myNav").style.height = "55%";
 }
 
 /* Close */
