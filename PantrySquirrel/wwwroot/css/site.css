@@ -39,7 +39,7 @@ ul {
     justify-content: space-around;
     font-size: 20px;
     margin: 5px 10px;
-    box-shadow: 0 0 5px 1px;
+    box-shadow: 0px 0 5px 1px;
 }
 
 .button .fa-xmark {
@@ -68,4 +68,57 @@ ul {
 
 #submit{
     margin-top: 10px;
+}
+
+
+/*card container section*/
+.card-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.card1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    padding: 0;
+    border: 2px red solid;
+    position: relative;
+}
+
+.recipe-ingredients {
+    background: rgb(220, 220, 220);
+    width: 100%;
+    height: 50px;
+}
+
+/* end of card container section */
+
+#UI {
+    height: 40px;
+    width: 300px;
+    border-radius: 7px;
+    outline: none;
+    border: 1px black solid;
+    margin-right: 10px;
+}
+
+button {
+    background: #B34800;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px black solid;
+    font-size: 18px;
+    color: white;
+    font-weight: bolder;
+}
+
+h1 {
+    font-size: 24px;
+    margin-top: 50px;
 }
