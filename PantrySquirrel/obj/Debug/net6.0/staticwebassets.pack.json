@@ -13,6 +13,26 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\REPOS\\PantrySquirrel\\PantrySquirrel\\wwwroot\\images1\\adison.jpg",
+      "PackagePath": "staticwebassets\\images1\\adison.jpg"
+    },
+    {
+      "Id": "C:\\REPOS\\PantrySquirrel\\PantrySquirrel\\wwwroot\\images1\\ibraheem.jpg",
+      "PackagePath": "staticwebassets\\images1\\ibraheem.jpg"
+    },
+    {
+      "Id": "C:\\REPOS\\PantrySquirrel\\PantrySquirrel\\wwwroot\\images1\\jo.jpg",
+      "PackagePath": "staticwebassets\\images1\\jo.jpg"
+    },
+    {
+      "Id": "C:\\REPOS\\PantrySquirrel\\PantrySquirrel\\wwwroot\\images1\\mickee.jpg",
+      "PackagePath": "staticwebassets\\images1\\mickee.jpg"
+    },
+    {
+      "Id": "C:\\REPOS\\PantrySquirrel\\PantrySquirrel\\wwwroot\\images1\\trey.jpg",
+      "PackagePath": "staticwebassets\\images1\\trey.jpg"
+    },
+    {
       "Id": "C:\\REPOS\\PantrySquirrel\\PantrySquirrel\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
