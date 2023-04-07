@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\REPOS\\PantrySquirrel\\PantrySquirrel\\wwwroot\\images1\\PS_logo.png",
+      "PackagePath": "staticwebassets\\images1\\PS_logo.png"
+    },
+    {
       "Id": "C:\\REPOS\\PantrySquirrel\\PantrySquirrel\\wwwroot\\images1\\adison.jpg",
       "PackagePath": "staticwebassets\\images1\\adison.jpg"
     },

@@ -3,10 +3,11 @@
 @{
     ViewData["Title"] = "Welcome Page";
 }
-
-<div class="text-center">
-    <img class="squirrelPic" src="https://i.gifer.com/origin/ca/ca6bcdea62512f15f3de2001b4f19d72_w200.gif"/>
-    <h4 class="display-4">Do you not know what to eat but have a ton of random ingredients? Well Welcome to Pantry Squirrel! The App that helps you decide what to cook based off of what you already have.</h4>
+<div class="wrapper">
+        <div class="text-center">
+        <img class="squirrelPic" src="~/images1/PS_logo.png"/>
+        <h4 class="display-4">Do you not know what to eat but have a ton of random ingredients? Well Welcome to Pantry Squirrel! The App that helps you decide what to cook based off of what you already have.</h4>
+        </div>
 </div>
 <input type="text" name="UserIngredients" placeholder="Your Food Items" id="UI" />
 <button id="submitFoodItem" onclick="AddIngredient()">Add to list</button>

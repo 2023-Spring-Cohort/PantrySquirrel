@@ -12,7 +12,26 @@ html {
     position: relative;
     min-height: 100%;
 }
-
+.navbar {
+    background-color: rgb(66,138,209) !important;
+    position:fixed!important;
+    width:100%;
+}
+.text-center{
+    justify-content:center;
+    width:800px!important;
+    margin-bottom:80px;
+}
+.wrapper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.squirrelPic{
+    margin-top: 80px;
+    height:400px;
+    padding:40px 0px 40px 0px;
+}
 body {
     margin-bottom: 60px;
     text-align: center;
@@ -29,7 +48,6 @@ ul {
 }
 
 .button {
-    background: rgb(255, 255, 255);
     height: 40px;
     width: 100px;
     border-radius: 10px;
@@ -67,7 +85,7 @@ ul {
 }
 
 #submit{
-    margin-top: 10px;
+    margin-top: 30px;
 }
 
 
@@ -109,20 +127,32 @@ ul {
 }
 
 button {
-    background: #B34800;
+    background: rgb(66,138,209);
     height: 40px;
-    border-radius: 10px;
-    border: 1px black solid;
+    border:none;
+    padding: 0px 20px 0px 20px;
+    border-radius: 3px;
     font-size: 18px;
     color: white;
     font-weight: bolder;
+}
+#submit-diet{
+    height:29px;
+    margin-left:5px;
 }
 
 h1 {
     font-size: 24px;
     margin-top: 50px;
 }
-
+.display-4 {
+    border-bottom: solid !important;
+    border-bottom-color: rgb(203,83,28) !important;
+    padding-bottom: 50px;
+    border-top: solid !important;
+    border-top-color: rgb(203,83,28) !important;
+    padding-top: 50px;
+}
 .profile {
     border-radius: 50%;
     width: 200px;
@@ -141,9 +171,9 @@ h1 {
     justify-content: center;
     align-items: center;
     margin-bottom: 5%;
-    background-color: aquamarine;
+    background-color:rgb(20,124,204);
     height: 350px;
-    box-shadow: 0px 0px 15px 2px rgb(0, 0, 0, 0.25);
+    box-shadow: 5px 8px 10px 5px inset rgb(0, 0, 0, 0.13);
 }
 
 .txtContain {
@@ -157,9 +187,9 @@ h1 {
     justify-content: center;
     align-items: center;
     margin-bottom: 5%;
-    background-color: coral;
+    background-color: rgb(203,83,28);
     height: 350px;
-    box-shadow: 0px 0px 15px 2px rgb(0, 0, 0, 0.25);
+    box-shadow: 5px 8px 10px 5px inset rgb(0, 0, 0, 0.13);
 }
 
 .oohLaLa {
@@ -168,4 +198,10 @@ h1 {
 
 .heady {
     margin-bottom: 5%;
+}
+
+#logo{
+    height:100px;
+    background-image: url("../images1/PS_logo.gif");
+    background-size:contain;
 }

@@ -3,6 +3,17 @@
 
 .dropDownWrapper[b-49p1h4gmpt] {
     display: flex;
+    float:left;
+}
+
+#hamburger[b-49p1h4gmpt] {
+    font-size: 25px;
+    padding-left:30px;
+}
+
+#hamburger:hover[b-49p1h4gmpt]{
+    cursor: pointer;
+    
 }
 
 /* The Overlay (background) */
@@ -12,10 +23,9 @@
     width: 100%;
     position: fixed; /* Stay in place */
     z-index: 1; /* Sit on top */
-    top: 56.5px;
+    top: 56px;
     left: 0;
     background-color:rgb(0, 0, 0, 0.97);
-    background-image: url("./Images/acorns.jpg");
     background-size:cover;
     overflow-x: hidden; /* Disable horizontal scroll */
     transition: 0.3s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
@@ -38,6 +48,7 @@
     color: #818181;
     display: block; /* Display block instead of inline */
     transition: 0.5s; /* Transition effects on hover (color) */
+    cursor:pointer;
 }
 
     /* When you mouse over the navigation links, change their color */

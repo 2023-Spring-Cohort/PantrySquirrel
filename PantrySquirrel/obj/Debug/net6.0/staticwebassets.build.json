@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "r0nmInq2vvK4BLOvAsQFWUQjjMBdo7g0h8Y7xofM1W8=",
+  "Hash": "DEyNqCGgN/jcemOmdVoQUpRV1XrW3lLvATKNiJfZR84=",
   "Source": "PantrySquirrel",
   "BasePath": "_content/PantrySquirrel",
   "Mode": "Default",
@@ -151,6 +151,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images1\\mickee.jpg"
+    },
+    {
+      "Identity": "C:\\REPOS\\PantrySquirrel\\PantrySquirrel\\wwwroot\\images1\\PS_logo.png",
+      "SourceId": "PantrySquirrel",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\REPOS\\PantrySquirrel\\PantrySquirrel\\wwwroot\\",
+      "BasePath": "_content/PantrySquirrel",
+      "RelativePath": "images1/PS_logo.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images1\\PS_logo.png"
     },
     {
       "Identity": "C:\\REPOS\\PantrySquirrel\\PantrySquirrel\\wwwroot\\images1\\trey.jpg",
