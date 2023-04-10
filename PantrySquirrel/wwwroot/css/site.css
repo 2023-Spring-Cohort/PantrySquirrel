@@ -13,9 +13,11 @@ html {
     min-height: 100%;
 }
 .navbar {
-    background-color: rgb(66,138,209) !important;
-    position:fixed!important;
-    width:100%;
+    background-color: rgb(66, 138, 209, 0.95)!important;
+    position: fixed !important;
+    top: 0px;
+    width: 100%;
+    border-bottom:none!important;
 }
 .text-center{
     justify-content:center;
@@ -49,7 +51,6 @@ ul {
 
 .button {
     height: 40px;
-    width: 100px;
     border-radius: 10px;
     display: flex;
     flex-direction: row;
@@ -120,7 +121,6 @@ ul {
 #UI {
     height: 40px;
     width: 300px;
-    border-radius: 7px;
     outline: none;
     border: 1px black solid;
     margin-right: 10px;
@@ -198,10 +198,21 @@ h1 {
 
 .heady {
     margin-bottom: 5%;
+    margin-top:10%;
 }
 
-#logo{
-    height:100px;
+.recipePageP{
+    margin-top: 10%!important;
+}
+.howItWorksP {
+    margin-top: 10% !important;
+}
+#logo {
+    height: 100px;
     background-image: url("../images1/PS_logo.gif");
-    background-size:contain;
+    background-size: contain;
+}
+
+.HIWlinks {
+    color: white !important;
 }
