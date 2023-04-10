@@ -24,7 +24,11 @@ namespace PantrySquirrel.Controllers
             {
                 for(int i = 0; i < recipe.recipe.ingredients.Length; i++)
                 {
-                    if (userIngredientsString.Contains(recipe.recipe.ingredients[i].food))
+                    if (userIngredientsString.Contains(recipe.recipe.ingredients[i].food.ToLower()))
+                    {
+                        recipe.recipe.ingredients[i].hasIt = true;
+                    }
+                    else if (recipe.recipe.ingredients[i].food.ToLower().Contains(userIngredientsString))
                     {
                         recipe.recipe.ingredients[i].hasIt = true;
                     }
