@@ -58,3 +58,15 @@ C:\REPOS\PantrySquirrel\ApiDataModels\obj\Debug\net6.0\ApiDataModels.dll
 C:\REPOS\PantrySquirrel\ApiDataModels\obj\Debug\net6.0\refint\ApiDataModels.dll
 C:\REPOS\PantrySquirrel\ApiDataModels\obj\Debug\net6.0\ApiDataModels.pdb
 C:\REPOS\PantrySquirrel\ApiDataModels\obj\Debug\net6.0\ref\ApiDataModels.dll
+C:\Users\Mic\Documents\Repos\PROJECTS\Final Cohort Project\PantrySquirrel\ApiDataModels\bin\Debug\net6.0\ApiDataModels.deps.json
+C:\Users\Mic\Documents\Repos\PROJECTS\Final Cohort Project\PantrySquirrel\ApiDataModels\bin\Debug\net6.0\ApiDataModels.dll
+C:\Users\Mic\Documents\Repos\PROJECTS\Final Cohort Project\PantrySquirrel\ApiDataModels\bin\Debug\net6.0\ApiDataModels.pdb
+C:\Users\Mic\Documents\Repos\PROJECTS\Final Cohort Project\PantrySquirrel\ApiDataModels\obj\Debug\net6.0\ApiDataModels.csproj.AssemblyReference.cache
+C:\Users\Mic\Documents\Repos\PROJECTS\Final Cohort Project\PantrySquirrel\ApiDataModels\obj\Debug\net6.0\ApiDataModels.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mic\Documents\Repos\PROJECTS\Final Cohort Project\PantrySquirrel\ApiDataModels\obj\Debug\net6.0\ApiDataModels.AssemblyInfoInputs.cache
+C:\Users\Mic\Documents\Repos\PROJECTS\Final Cohort Project\PantrySquirrel\ApiDataModels\obj\Debug\net6.0\ApiDataModels.AssemblyInfo.cs
+C:\Users\Mic\Documents\Repos\PROJECTS\Final Cohort Project\PantrySquirrel\ApiDataModels\obj\Debug\net6.0\ApiDataModels.csproj.CoreCompileInputs.cache
+C:\Users\Mic\Documents\Repos\PROJECTS\Final Cohort Project\PantrySquirrel\ApiDataModels\obj\Debug\net6.0\ApiDataModels.dll
+C:\Users\Mic\Documents\Repos\PROJECTS\Final Cohort Project\PantrySquirrel\ApiDataModels\obj\Debug\net6.0\refint\ApiDataModels.dll
+C:\Users\Mic\Documents\Repos\PROJECTS\Final Cohort Project\PantrySquirrel\ApiDataModels\obj\Debug\net6.0\ApiDataModels.pdb
+C:\Users\Mic\Documents\Repos\PROJECTS\Final Cohort Project\PantrySquirrel\ApiDataModels\obj\Debug\net6.0\ref\ApiDataModels.dll
