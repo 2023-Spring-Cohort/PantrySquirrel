@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "flIo3rTEu27qmbwxsL2sSzGzYB+zi1Vm9GkbKuXI5Ak=",
+  "Hash": "Em/6q/NkNrZH32cvTuBssZvNga6SGnfjAn0ZkknsEOs=",
   "Source": "PantrySquirrel",
   "BasePath": "_content/PantrySquirrel",
   "Mode": "Default",
@@ -1122,12 +1122,12 @@
       "OriginalItemSpec": "wwwroot\\images1\\adison.jpg"
     },
     {
-      "Identity": "C:\\Users\\Mic\\Documents\\Repos\\PROJECTS\\Final Cohort Project\\PantrySquirrel\\PantrySquirrel\\wwwroot\\images1\\background-fuzzy.png",
+      "Identity": "C:\\Users\\Mic\\Documents\\Repos\\PROJECTS\\Final Cohort Project\\PantrySquirrel\\PantrySquirrel\\wwwroot\\images1\\background.png",
       "SourceId": "PantrySquirrel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Mic\\Documents\\Repos\\PROJECTS\\Final Cohort Project\\PantrySquirrel\\PantrySquirrel\\wwwroot\\",
       "BasePath": "_content/PantrySquirrel",
-      "RelativePath": "images1/background-fuzzy.png",
+      "RelativePath": "images1/background.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1136,7 +1136,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images1\\background-fuzzy.png"
+      "OriginalItemSpec": "wwwroot\\images1\\background.png"
     },
     {
       "Identity": "C:\\Users\\Mic\\Documents\\Repos\\PROJECTS\\Final Cohort Project\\PantrySquirrel\\PantrySquirrel\\wwwroot\\images1\\bakery-food.png",
