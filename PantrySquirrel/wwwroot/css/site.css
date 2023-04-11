@@ -20,27 +20,40 @@ html {
     border-bottom:none!important;
 }
 .text-center{
-    justify-content:center;
+    justify-content:center!important;
+    align-content:center;
     width:800px!important;
     margin-bottom:80px;
+    margin
 }
 .wrapper {
     display: flex;
     justify-content: center;
     width: 100%;
+    
+   
 }
-.squirrelPic{
-    margin-top: 80px;
-    height:400px;
-    padding:40px 0px 40px 0px;
+.squirrelPic {
+    height: 400px;
+    padding: 40px 0px 40px 0px;
+   
 }
 body {
     margin-bottom: 60px;
     text-align: center;
+    background-image: url("../images1/background.png");
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-size:cover;
+
+    
+
 }
+
 
 .display-4 {
     font-size: 28px;
+    background-color:white;
 }
 
 ul {
@@ -157,12 +170,16 @@ h1 {
     border-radius: 50%;
     width: 200px;
     margin-right: 5%;
+    border-style: dotted;
+    
 }
 
 .profileR {
     border-radius: 50%;
     width: 200px;
     margin-left: 5%;
+    border-style: dotted;
+    
 }
 
 .bioContain {
@@ -194,15 +211,21 @@ h1 {
 
 .oohLaLa {
     width: 700px;
+    color: white;
 }
 
 .heady {
     margin-bottom: 5%;
-    margin-top:10%;
+    margin-top: 10%;
+    color: black;
+}
+h2{
+    color: white;
 }
 
 .recipePageP{
     margin-top: 10%!important;
+    background-color: white;
 }
 .howItWorksP {
     margin-top: 10% !important;
@@ -211,8 +234,47 @@ h1 {
     height: 100px;
     background-image: url("../images1/PS_logo.gif");
     background-size: contain;
+    
 }
 
 .HIWlinks {
     color: white !important;
+}
+
+.logoHolder {
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px 5px inset rgb(66,138,209, 0.90);
+    background-color: white;
+    margin-top: 80px;
+    margin-right: 75%;
+    margin-left: 25%;
+    margin-bottom: 30px;
+
+}
+footer {
+    background-color: rgb(66,138,209);
+    color: white;
+}
+
+.whatItDo {
+    background-color: white;
+    border-bottom: solid !important;
+    border-bottom-color: rgb(203,83,28) !important;
+    border-top: solid !important;
+    border-top-color: rgb(203,83,28) !important;
+}
+
+.HIWlinks {
+    text-decoration: none;
+    background-color: rgb(203,83,28);
+}
+
+#HIWbutton {
+    background-color: rgb(203,83,28);
+}
+
+h1{
+    padding-bottom: 30px;
 }

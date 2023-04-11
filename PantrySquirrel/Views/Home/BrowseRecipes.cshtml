@@ -3,24 +3,26 @@
     ViewData["Title"] = "Browse Recipes";
 }
 <h1>@ViewData["See All Recipes"]</h1>
-<div class="recipePageP">
-    <p>Hungry? Check Out Some Tasty Recipes!</p>
-    <form method="post" asp-controller="Home" asp-action="BrowseRecipes">
-        <input type="text" name="recipeText" id="userRecipe" />
-        <button type="submit">Find a Recipe!</button>
-    </form>
-</div>
-@if (Model is not null)
-{
-    <table>
-        @foreach (var r in Model.hits)
-        {
-            <tr>
-                <td>
-                    <img src="@r.recipe.image">
-                    @r.recipe.label<br>
-                </td>
-            </tr>
-        }
-    </table>
-}
+<body id="browseFoodPage">
+    <div class="recipePageP">
+        <h1>Hungry? Check Out Some Tasty Recipes!</h1>
+        <form method="post" asp-controller="Home" asp-action="BrowseRecipes">
+            <input type="text" name="recipeText" placeholder="salad" id="userRecipe" />
+            <button type="submit">Find Recipes!</button>
+        </form>
+    </div>
+    @if (Model is not null)
+    {
+        <table>
+            @foreach (var r in Model.hits)
+            {
+                <tr>
+                    <td>
+                        <img src="@r.recipe.image">
+                        @r.recipe.label<br>
+                    </td>
+                </tr>
+            }
+        </table>
+    }
+</body>

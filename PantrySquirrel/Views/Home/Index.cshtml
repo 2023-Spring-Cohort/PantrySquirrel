@@ -3,47 +3,51 @@
 @{
     ViewData["Title"] = "Welcome Page";
 }
-<div class="wrapper">
-        <div class="text-center">
-        <img class="squirrelPic" src="~/images1/PS_logo.png"/>
-        <h4 class="display-4">Do you not know what to eat but have a ton of random ingredients? Well Welcome to Pantry Squirrel! The App that helps you decide what to cook based off of what you already have.</h4>
+<body>  
+    
+        <div class="wrapper">
+            <div class="text-center">
+                <div class="logoHolder">
+                    <img class="squirrelPic" src="~/images1/PS_logo.png"/>
+                </div>
+            <h4 class="display-4">Do you not know what to eat but have a ton of random ingredients? Well Welcome to Pantry Squirrel! The App that helps you decide what to cook based off of what you already have.</h4>
+            </div>
         </div>
-</div>
-<input type="text" name="UserIngredients" placeholder="Your Food Items" id="UI" />
-<button id="submitFoodItem" onclick="AddIngredient()">Add to List</button>
-<ul id="foodItems" name="userFoodItems"></ul>
-<input type="text" name="Filters" placeholder="Dietary Restrictions" id="diet"/>
-<button  id="submit-diet" onclick="AddDietary()">Add Diet</button><br>
+        <input type="text" name="UserIngredients" placeholder="Your Food Items" id="UI" />
+        <button id="submitFoodItem" onclick="AddIngredient()">Add to List</button>
+        <ul id="foodItems" name="userFoodItems"></ul>
+        <input type="text" name="Filters" placeholder="Dietary Restrictions" id="diet"/>
+        <button  id="submit-diet" onclick="AddDietary()">Add Diet</button><br>
 
-<form method="post" asp-controller="Home" asp-action="Index">
-    <input type="hidden" name="userIngredientsString" id="userIngredientsString" />
-    <button type="submit" id="submit">Look For Recipes</button>
-</form>
+        <form method="post" asp-controller="Home" asp-action="Index">
+            <input type="hidden" name="userIngredientsString" id="userIngredientsString" />
+            <button type="submit" id="submit">Look For Recipes</button>
+        </form>
 
-<div class="card-container">
-    @foreach (var r in Model.hits)
-    {
-        <div class="card1">
-            <h3 class="recipe-name">@r.recipe.label</h3>
-            <img src="@r.recipe.image" class="recipe-image">
-            <ul class="recipe-ingredients">
-                @foreach (var ingredient in r.recipe.ingredients)
-                {
-                    if (ingredient.hasIt)
-                    {
-                        <li class="recipe-ingredient hasIt">@ingredient.food</li>
-                    }
-                    else
-                    {
-                        <li class="recipe-ingredient notHasIt">@ingredient.food</li>
-                    }
-                }
-            </ul>
-            <a href="@r.recipe.url" target="_blank"> @r.recipe.label</a>
+        <div class="card-container">
+            @foreach (var r in Model.hits)
+            {
+                <div class="card1">
+                    <h3 class="recipe-name">@r.recipe.label</h3>
+                    <img src="@r.recipe.image" class="recipe-image">
+                    <ul class="recipe-ingredients">
+                        @foreach (var ingredient in r.recipe.ingredients)
+                        {
+                            if (ingredient.hasIt)
+                            {
+                                <li class="recipe-ingredient hasIt">@ingredient.food</li>
+                            }
+                            else
+                            {
+                                <li class="recipe-ingredient notHasIt">@ingredient.food</li>
+                            }
+                        }
+                    </ul>
+                    <a href="@r.recipe.url" target="_blank"> @r.recipe.label</a>
+                </div>
+            }
         </div>
-    }
-</div>
-
+</body>
 @*<table>
     @foreach (var r in Model.hits)
     {
