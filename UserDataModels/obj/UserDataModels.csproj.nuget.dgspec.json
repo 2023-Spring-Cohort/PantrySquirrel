@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Mic\\Documents\\Repos\\PROJECTS\\Final Cohort Project\\PantrySquirrel\\UserDataModels\\UserDataModels.csproj": {}
+    "C:\\Users\\Crumrine Financial\\Desktop\\PantrySquirrel\\UserDataModels\\UserDataModels.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Mic\\Documents\\Repos\\PROJECTS\\Final Cohort Project\\PantrySquirrel\\UserDataModels\\UserDataModels.csproj": {
+    "C:\\Users\\Crumrine Financial\\Desktop\\PantrySquirrel\\UserDataModels\\UserDataModels.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mic\\Documents\\Repos\\PROJECTS\\Final Cohort Project\\PantrySquirrel\\UserDataModels\\UserDataModels.csproj",
+        "projectUniqueName": "C:\\Users\\Crumrine Financial\\Desktop\\PantrySquirrel\\UserDataModels\\UserDataModels.csproj",
         "projectName": "UserDataModels",
-        "projectPath": "C:\\Users\\Mic\\Documents\\Repos\\PROJECTS\\Final Cohort Project\\PantrySquirrel\\UserDataModels\\UserDataModels.csproj",
-        "packagesPath": "C:\\Users\\Mic\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mic\\Documents\\Repos\\PROJECTS\\Final Cohort Project\\PantrySquirrel\\UserDataModels\\obj\\",
+        "projectPath": "C:\\Users\\Crumrine Financial\\Desktop\\PantrySquirrel\\UserDataModels\\UserDataModels.csproj",
+        "packagesPath": "C:\\Users\\Crumrine Financial\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Crumrine Financial\\Desktop\\PantrySquirrel\\UserDataModels\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Mic\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Crumrine Financial\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "r5XWDSx5YRYwDD3eXzL8CgeTQ3Ej2mHlpFfvHuicN/JfCO2BLUFk4scLds0qggJ78K919UFILpaOAYG4SaNTMg==",
+  "dgSpecHash": "mXWSRb4UvTKB4z6n5D12eepQqLhoDW6e66B8RCxy1uwm9OW+dy14lY90GDJ26o70oO68RvV8F3bL5S1dZaqheQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Mic\\Documents\\Repos\\PROJECTS\\Final Cohort Project\\PantrySquirrel\\ApiDataModels\\ApiDataModels.csproj",
+  "projectFilePath": "C:\\Users\\Crumrine Financial\\Desktop\\PantrySquirrel\\ApiDataModels\\ApiDataModels.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Mic\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+    "C:\\Users\\Crumrine Financial\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
   ],
   "logs": []
 }
