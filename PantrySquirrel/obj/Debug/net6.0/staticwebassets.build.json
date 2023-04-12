@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "J92MqSUZqGHzhVRtJWCzz57UkwHP09BKY5LcPB3Zb0c=",
+  "Hash": "yH2yRparCYHF6d9JiRP3eBQ6bvwIOgYaTciyJINipnY=",
   "Source": "PantrySquirrel",
   "BasePath": "_content/PantrySquirrel",
   "Mode": "Default",
@@ -1171,6 +1171,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images1\\ibraheem.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Crumrine Financial\\Desktop\\PantrySquirrel\\PantrySquirrel\\wwwroot\\images1\\image.png",
+      "SourceId": "PantrySquirrel",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Crumrine Financial\\Desktop\\PantrySquirrel\\PantrySquirrel\\wwwroot\\",
+      "BasePath": "_content/PantrySquirrel",
+      "RelativePath": "images1/image.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images1\\image.png"
     },
     {
       "Identity": "C:\\Users\\Crumrine Financial\\Desktop\\PantrySquirrel\\PantrySquirrel\\wwwroot\\images1\\jo.jpg",

@@ -59,7 +59,7 @@
 /* Position the close button (top right corner) */
 .overlay .closebtn[b-49p1h4gmpt] {
     position: absolute;
-    right: 45px;
+    left: 30px;
     font-size: 60px;
 }
 
