@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Crumrine Financial\\Desktop\\PantrySquirrel\\PantrySquirrel\\PantrySquirrel.csproj": {}
+    "C:\\Users\\Mic\\Documents\\Repos\\PROJECTS\\Final Cohort Project\\PantrySquirrel\\PantrySquirrel\\PantrySquirrel.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Crumrine Financial\\Desktop\\PantrySquirrel\\ApiDataModels\\ApiDataModels.csproj": {
+    "C:\\Users\\Mic\\Documents\\Repos\\PROJECTS\\Final Cohort Project\\PantrySquirrel\\ApiDataModels\\ApiDataModels.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Crumrine Financial\\Desktop\\PantrySquirrel\\ApiDataModels\\ApiDataModels.csproj",
+        "projectUniqueName": "C:\\Users\\Mic\\Documents\\Repos\\PROJECTS\\Final Cohort Project\\PantrySquirrel\\ApiDataModels\\ApiDataModels.csproj",
         "projectName": "ApiDataModels",
-        "projectPath": "C:\\Users\\Crumrine Financial\\Desktop\\PantrySquirrel\\ApiDataModels\\ApiDataModels.csproj",
-        "packagesPath": "C:\\Users\\Crumrine Financial\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Crumrine Financial\\Desktop\\PantrySquirrel\\ApiDataModels\\obj\\",
+        "projectPath": "C:\\Users\\Mic\\Documents\\Repos\\PROJECTS\\Final Cohort Project\\PantrySquirrel\\ApiDataModels\\ApiDataModels.csproj",
+        "packagesPath": "C:\\Users\\Mic\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Mic\\Documents\\Repos\\PROJECTS\\Final Cohort Project\\PantrySquirrel\\ApiDataModels\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Crumrine Financial\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Mic\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -65,17 +65,17 @@
         }
       }
     },
-    "C:\\Users\\Crumrine Financial\\Desktop\\PantrySquirrel\\PantrySquirrel\\PantrySquirrel.csproj": {
+    "C:\\Users\\Mic\\Documents\\Repos\\PROJECTS\\Final Cohort Project\\PantrySquirrel\\PantrySquirrel\\PantrySquirrel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Crumrine Financial\\Desktop\\PantrySquirrel\\PantrySquirrel\\PantrySquirrel.csproj",
+        "projectUniqueName": "C:\\Users\\Mic\\Documents\\Repos\\PROJECTS\\Final Cohort Project\\PantrySquirrel\\PantrySquirrel\\PantrySquirrel.csproj",
         "projectName": "PantrySquirrel",
-        "projectPath": "C:\\Users\\Crumrine Financial\\Desktop\\PantrySquirrel\\PantrySquirrel\\PantrySquirrel.csproj",
-        "packagesPath": "C:\\Users\\Crumrine Financial\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Crumrine Financial\\Desktop\\PantrySquirrel\\PantrySquirrel\\obj\\",
+        "projectPath": "C:\\Users\\Mic\\Documents\\Repos\\PROJECTS\\Final Cohort Project\\PantrySquirrel\\PantrySquirrel\\PantrySquirrel.csproj",
+        "packagesPath": "C:\\Users\\Mic\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Mic\\Documents\\Repos\\PROJECTS\\Final Cohort Project\\PantrySquirrel\\PantrySquirrel\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Crumrine Financial\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Mic\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -89,8 +89,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Crumrine Financial\\Desktop\\PantrySquirrel\\ApiDataModels\\ApiDataModels.csproj": {
-                "projectPath": "C:\\Users\\Crumrine Financial\\Desktop\\PantrySquirrel\\ApiDataModels\\ApiDataModels.csproj"
+              "C:\\Users\\Mic\\Documents\\Repos\\PROJECTS\\Final Cohort Project\\PantrySquirrel\\ApiDataModels\\ApiDataModels.csproj": {
+                "projectPath": "C:\\Users\\Mic\\Documents\\Repos\\PROJECTS\\Final Cohort Project\\PantrySquirrel\\ApiDataModels\\ApiDataModels.csproj"
               }
             }
           }
@@ -111,19 +111,25 @@
             },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[6.0.12, )"
+              "version": "[6.0.15, )"
             },
             "Microsoft.AspNetCore.Identity.UI": {
               "target": "Package",
-              "version": "[6.0.12, )"
+              "version": "[6.0.15, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[6.0.12, )"
+              "version": "[6.0.15, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
-              "version": "[6.0.12, )"
+              "version": "[6.0.15, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[6.0.13, )"
             },
             "Newtonsoft.Json": {
               "target": "Package",

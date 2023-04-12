@@ -61,45 +61,23 @@ function closeNav() {
     document.getElementById("myNav").style.height = "0%";
 }
 //-----------------card javascript-----------//
-let contents = document.querySelectorAll(".content");
 let cards = document.querySelectorAll(".card");
 let tabs = document.querySelectorAll(".tab");
-let link = document.querySelector(".links")
-let about = document.querySelector(".ingredients")
-tabs.forEach((e) => {
-    e.onclick = () => {
-        tabs.forEach(e => {
-            e.style.transform = "";
-        });
-        e.style.transform = "scale(1.15)"
-    }
-})
 cards.forEach((card) => {
-    let nutritionTab = document.querySelector(".nutrition-tab");
-    nutritionTab.onclick = () => {
-        contents.forEach((card) => {
-            card.style.opacity = "0";
-            ingredientsTab.style.transform = "";
-        })
-        tabs.forEach((e => {
-            // tabs.style.transform = "";
-        }))
-        let description = document.querySelector(".nutrition");
-        description.style.opacity = "1";
-        nutritionTab.style.transform = "scale(1.15)"
+    let desTabs = card.lastElementChild.firstElementChild.nextElementSibling.firstElementChild
+    let ingTabs = card.lastElementChild.firstElementChild.nextElementSibling.lastElementChild
+    let desContents = card.lastElementChild.lastElementChild.firstElementChild
+    let ingContents = card.lastElementChild.lastElementChild.lastElementChild
+    desTabs.onclick = () => {
+        ingTabs.style.transform = "";
+        ingContents.style.opacity = "0";
+        desContents.style.opacity = "1";
+        desTabs.style.transform = "scale(1.15)"
     }
-    let ingredientsTab = document.querySelector(".ingredients-tab");
-    ingredientsTab.onclick = () => {
-        let contents = document.querySelectorAll(".content");
-        contents.forEach((card) => {
-            card.style.opacity = "0";
-            nutritionTab.style.transform = "";
-        })
-        tabs.forEach((e => {
-            // tabs.style.transform = "";
-        }))
-        let ingredients = document.querySelector(".ingredients");
-        ingredients.style.opacity = "1";
-        ingredientsTab.style.transform = "scale(1.15)"
+    ingTabs.onclick = () => {
+        desTabs.style.transform = "";
+        desContents.style.opacity = "0";
+        ingContents.style.opacity = "1";
+        ingTabs.style.transform = "scale(1.15)"
     }
 })
