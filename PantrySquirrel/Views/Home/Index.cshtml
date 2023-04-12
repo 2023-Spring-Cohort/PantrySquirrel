@@ -24,29 +24,47 @@
             <button type="submit" id="submit">Look For Recipes</button>
         </form>
 
-        <div class="card-container">
-            @foreach (var r in Model.hits)
-            {
-                <div class="card1">
-                    <h3 class="recipe-name">@r.recipe.label</h3>
-                    <img src="@r.recipe.image" class="recipe-image">
-                    <ul class="recipe-ingredients">
-                        @foreach (var ingredient in r.recipe.ingredients)
-                        {
-                            if (ingredient.hasIt)
-                            {
-                                <li class="recipe-ingredient hasIt">@ingredient.food</li>
-                            }
-                            else
-                            {
-                                <li class="recipe-ingredient notHasIt">@ingredient.food</li>
-                            }
-                        }
-                    </ul>
-                    <a href="@r.recipe.url" target="_blank"> @r.recipe.label</a>
+    <div class="card-container">
+        @foreach (var r in Model.hits)
+        {
+            <div class="card">
+                <a href="@r.recipe.url" target="_blank" class="img-card">
+                    <div class="link-text">Go To Recipe</div>
+                    <img src="@r.recipe.image">
+                </a>
+                <div class="info-card">
+                    <div class="name">@r.recipe.label</div>
+                    <div class="tabs">
+                        <div class="ingredients-tab tab">
+                            Ingredients
+                        </div>
+                        <div class="nutrition-tab tab">
+                            Nutritional Info
+                        </div>
+                    </div>
+                    <div class="tab-contents">
+                        <div class="ingredients content">
+                            <ul>
+                                @foreach (var ingredient in r.recipe.ingredients)
+                                {
+                                    if (ingredient.hasIt)
+                                    {
+                                        <li class="recipe-ingredient hasIt">@ingredient.food</li>
+                                    }
+                                    else
+                                    {
+                                        <li class="recipe-ingredient notHasIt">@ingredient.food</li>
+                                    }
+                                }
+                            </ul>
+                        </div>
+                        <div class="nutrition content">
+                        </div>
+                    </div>
                 </div>
-            }
-        </div>
+            </div>
+        }
+    </div>
 </body>
 @*<table>
     @foreach (var r in Model.hits)

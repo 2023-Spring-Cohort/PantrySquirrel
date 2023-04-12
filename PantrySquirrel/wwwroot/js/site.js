@@ -53,10 +53,53 @@ function ConvertingToString() {
 // ----------------- nav bar ---------------- //
 /* Open */
 function openNav() {
-    document.getElementById("myNav").style.height = "55%";
+    document.getElementById("myNav").style.height = "45%";
 }
 
 /* Close */
 function closeNav() {
     document.getElementById("myNav").style.height = "0%";
 }
+//-----------------card javascript-----------//
+let contents = document.querySelectorAll(".content");
+let cards = document.querySelectorAll(".card");
+let tabs = document.querySelectorAll(".tab");
+let link = document.querySelector(".links")
+let about = document.querySelector(".ingredients")
+tabs.forEach((e) => {
+    e.onclick = () => {
+        tabs.forEach(e => {
+            e.style.transform = "";
+        });
+        e.style.transform = "scale(1.15)"
+    }
+})
+cards.forEach((card) => {
+    let nutritionTab = document.querySelector(".nutrition-tab");
+    nutritionTab.onclick = () => {
+        contents.forEach((card) => {
+            card.style.opacity = "0";
+            ingredientsTab.style.transform = "";
+        })
+        tabs.forEach((e => {
+            // tabs.style.transform = "";
+        }))
+        let description = document.querySelector(".nutrition");
+        description.style.opacity = "1";
+        nutritionTab.style.transform = "scale(1.15)"
+    }
+    let ingredientsTab = document.querySelector(".ingredients-tab");
+    ingredientsTab.onclick = () => {
+        let contents = document.querySelectorAll(".content");
+        contents.forEach((card) => {
+            card.style.opacity = "0";
+            nutritionTab.style.transform = "";
+        })
+        tabs.forEach((e => {
+            // tabs.style.transform = "";
+        }))
+        let ingredients = document.querySelector(".ingredients");
+        ingredients.style.opacity = "1";
+        ingredientsTab.style.transform = "scale(1.15)"
+    }
+})
