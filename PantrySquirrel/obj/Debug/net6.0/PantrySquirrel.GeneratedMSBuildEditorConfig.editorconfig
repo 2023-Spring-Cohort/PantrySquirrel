@@ -9,121 +9,121 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = PantrySquirrel
 build_property.RootNamespace = PantrySquirrel
-build_property.ProjectDir = C:\Users\Mic\Documents\Repos\PROJECTS\Final Cohort Project\PantrySquirrel\PantrySquirrel\
+build_property.ProjectDir = C:\REPOS\PantrySquirrel\PantrySquirrel\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Mic\Documents\Repos\PROJECTS\Final Cohort Project\PantrySquirrel\PantrySquirrel
+build_property.MSBuildProjectDirectory = C:\REPOS\PantrySquirrel\PantrySquirrel
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Mic/Documents/Repos/PROJECTS/Final Cohort Project/PantrySquirrel/PantrySquirrel/Areas/Identity/Pages/Account/ConfirmEmailChange.cshtml]
+[C:/REPOS/PantrySquirrel/PantrySquirrel/Areas/Identity/Pages/Account/ConfirmEmailChange.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxDb25maXJtRW1haWxDaGFuZ2UuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mic/Documents/Repos/PROJECTS/Final Cohort Project/PantrySquirrel/PantrySquirrel/Areas/Identity/Pages/Account/ForgotPassword.cshtml]
+[C:/REPOS/PantrySquirrel/PantrySquirrel/Areas/Identity/Pages/Account/ForgotPassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxGb3Jnb3RQYXNzd29yZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mic/Documents/Repos/PROJECTS/Final Cohort Project/PantrySquirrel/PantrySquirrel/Areas/Identity/Pages/Account/Login.cshtml]
+[C:/REPOS/PantrySquirrel/PantrySquirrel/Areas/Identity/Pages/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mic/Documents/Repos/PROJECTS/Final Cohort Project/PantrySquirrel/PantrySquirrel/Areas/Identity/Pages/Account/Logout.cshtml]
+[C:/REPOS/PantrySquirrel/PantrySquirrel/Areas/Identity/Pages/Account/Logout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mic/Documents/Repos/PROJECTS/Final Cohort Project/PantrySquirrel/PantrySquirrel/Areas/Identity/Pages/Account/Manage/ChangePassword.cshtml]
+[C:/REPOS/PantrySquirrel/PantrySquirrel/Areas/Identity/Pages/Account/Manage/ChangePassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcQ2hhbmdlUGFzc3dvcmQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mic/Documents/Repos/PROJECTS/Final Cohort Project/PantrySquirrel/PantrySquirrel/Areas/Identity/Pages/Account/Manage/Email.cshtml]
+[C:/REPOS/PantrySquirrel/PantrySquirrel/Areas/Identity/Pages/Account/Manage/Email.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcRW1haWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mic/Documents/Repos/PROJECTS/Final Cohort Project/PantrySquirrel/PantrySquirrel/Areas/Identity/Pages/Account/Manage/Index.cshtml]
+[C:/REPOS/PantrySquirrel/PantrySquirrel/Areas/Identity/Pages/Account/Manage/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mic/Documents/Repos/PROJECTS/Final Cohort Project/PantrySquirrel/PantrySquirrel/Areas/Identity/Pages/Account/Manage/PersonalData.cshtml]
+[C:/REPOS/PantrySquirrel/PantrySquirrel/Areas/Identity/Pages/Account/Manage/PersonalData.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcUGVyc29uYWxEYXRhLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mic/Documents/Repos/PROJECTS/Final Cohort Project/PantrySquirrel/PantrySquirrel/Areas/Identity/Pages/Account/Manage/_Layout.cshtml]
+[C:/REPOS/PantrySquirrel/PantrySquirrel/Areas/Identity/Pages/Account/Manage/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX0xheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mic/Documents/Repos/PROJECTS/Final Cohort Project/PantrySquirrel/PantrySquirrel/Areas/Identity/Pages/Account/Manage/_ManageNav.cshtml]
+[C:/REPOS/PantrySquirrel/PantrySquirrel/Areas/Identity/Pages/Account/Manage/_ManageNav.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX01hbmFnZU5hdi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mic/Documents/Repos/PROJECTS/Final Cohort Project/PantrySquirrel/PantrySquirrel/Areas/Identity/Pages/Account/Manage/_ViewImports.cshtml]
+[C:/REPOS/PantrySquirrel/PantrySquirrel/Areas/Identity/Pages/Account/Manage/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mic/Documents/Repos/PROJECTS/Final Cohort Project/PantrySquirrel/PantrySquirrel/Areas/Identity/Pages/Account/Register.cshtml]
+[C:/REPOS/PantrySquirrel/PantrySquirrel/Areas/Identity/Pages/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mic/Documents/Repos/PROJECTS/Final Cohort Project/PantrySquirrel/PantrySquirrel/Areas/Identity/Pages/Account/ResendEmailConfirmation.cshtml]
+[C:/REPOS/PantrySquirrel/PantrySquirrel/Areas/Identity/Pages/Account/ResendEmailConfirmation.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZXNlbmRFbWFpbENvbmZpcm1hdGlvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mic/Documents/Repos/PROJECTS/Final Cohort Project/PantrySquirrel/PantrySquirrel/Areas/Identity/Pages/Account/ResetPassword.cshtml]
+[C:/REPOS/PantrySquirrel/PantrySquirrel/Areas/Identity/Pages/Account/ResetPassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZXNldFBhc3N3b3JkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mic/Documents/Repos/PROJECTS/Final Cohort Project/PantrySquirrel/PantrySquirrel/Areas/Identity/Pages/Account/_ViewImports.cshtml]
+[C:/REPOS/PantrySquirrel/PantrySquirrel/Areas/Identity/Pages/Account/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfVmlld0ltcG9ydHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mic/Documents/Repos/PROJECTS/Final Cohort Project/PantrySquirrel/PantrySquirrel/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
+[C:/REPOS/PantrySquirrel/PantrySquirrel/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mic/Documents/Repos/PROJECTS/Final Cohort Project/PantrySquirrel/PantrySquirrel/Areas/Identity/Pages/_ViewImports.cshtml]
+[C:/REPOS/PantrySquirrel/PantrySquirrel/Areas/Identity/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mic/Documents/Repos/PROJECTS/Final Cohort Project/PantrySquirrel/PantrySquirrel/Areas/Identity/Pages/_ViewStart.cshtml]
+[C:/REPOS/PantrySquirrel/PantrySquirrel/Areas/Identity/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mic/Documents/Repos/PROJECTS/Final Cohort Project/PantrySquirrel/PantrySquirrel/Views/Home/About.cshtml]
+[C:/REPOS/PantrySquirrel/PantrySquirrel/Views/Home/About.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBYm91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mic/Documents/Repos/PROJECTS/Final Cohort Project/PantrySquirrel/PantrySquirrel/Views/Home/BrowseRecipes.cshtml]
+[C:/REPOS/PantrySquirrel/PantrySquirrel/Views/Home/BrowseRecipes.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxCcm93c2VSZWNpcGVzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mic/Documents/Repos/PROJECTS/Final Cohort Project/PantrySquirrel/PantrySquirrel/Views/Home/HowItWorks.cshtml]
+[C:/REPOS/PantrySquirrel/PantrySquirrel/Views/Home/HowItWorks.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxIb3dJdFdvcmtzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mic/Documents/Repos/PROJECTS/Final Cohort Project/PantrySquirrel/PantrySquirrel/Views/Home/Index.cshtml]
+[C:/REPOS/PantrySquirrel/PantrySquirrel/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mic/Documents/Repos/PROJECTS/Final Cohort Project/PantrySquirrel/PantrySquirrel/Views/Shared/Error.cshtml]
+[C:/REPOS/PantrySquirrel/PantrySquirrel/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mic/Documents/Repos/PROJECTS/Final Cohort Project/PantrySquirrel/PantrySquirrel/Views/Shared/_LoginPartial.cshtml]
+[C:/REPOS/PantrySquirrel/PantrySquirrel/Views/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mic/Documents/Repos/PROJECTS/Final Cohort Project/PantrySquirrel/PantrySquirrel/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/REPOS/PantrySquirrel/PantrySquirrel/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mic/Documents/Repos/PROJECTS/Final Cohort Project/PantrySquirrel/PantrySquirrel/Views/_ViewImports.cshtml]
+[C:/REPOS/PantrySquirrel/PantrySquirrel/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mic/Documents/Repos/PROJECTS/Final Cohort Project/PantrySquirrel/PantrySquirrel/Views/_ViewStart.cshtml]
+[C:/REPOS/PantrySquirrel/PantrySquirrel/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mic/Documents/Repos/PROJECTS/Final Cohort Project/PantrySquirrel/PantrySquirrel/Views/Shared/_Layout.cshtml]
+[C:/REPOS/PantrySquirrel/PantrySquirrel/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-49p1h4gmpt
