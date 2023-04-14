@@ -1,16 +1,21 @@
 ﻿@model ApiDataModels.RecipeModels.RecipeSearchResults
-@{
-    ViewData["Title"] = "Browse Recipes";
-}
-<h1>@ViewData["See All Recipes"]</h1>
+
 <body id="browseFoodPage">
     <div class="recipePageP">
-        <h1>Hungry? Check Out Some Tasty Recipes!</h1>
-        <form method="post" asp-controller="Home" asp-action="BrowseRecipes">
-            <input type="text" name="recipeText" placeholder="salad" id="userRecipe" />
-            <button type="submit">Find Recipes!</button>
-        </form>
+        <img id="cookShelf" src="~/images1/cookShelf 2.png" />
+        <div>
+            <h1 id="headerBrowse">Hungry? Check Out Some Tasty Recipes!</h1>
+        </div>
+        <img id="recipeBook" src="~/images1/RECIPE BOOK (2).jpg" />
+        <div id="findRecipes">
+            <form method="post" asp-controller="Home" asp-action="BrowseRecipes">
+                <input type="text" name="recipeText" placeholder="salad" id="userRecipe" />
+                <button type="submit">Find Recipes!</button>
+            </form>
+        </div>
     </div>
+
+
     @if (Model is not null)
     {
         <table>

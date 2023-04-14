@@ -30,11 +30,23 @@ function AddDietary() {
     let dietInputVal = document.getElementById("diet").value;
     let dietTextNode = document.createTextNode(dietInputVal);
     let dietNode = document.createElement("li");
-    dietNode.style.display = "none";
+    let xBtn = document.createElement("div");
+
+    dietNode.classList.add("buttonDiet");
+    xBtn.classList.add("fa-xmark")
+    xBtn.classList.add("fa-solid")
+    
     dietNode.appendChild(dietTextNode);
+    dietNode.appendChild(xBtn);
+
     document.getElementById("foodItems").appendChild(dietNode);
     if (diet.value != "") {
         diet.value = ""
+    }
+    xBtn.onclick = () => {
+        xBtn.parentElement.remove();
+        xBtn.remove();
+        ConvertingToString();
     }
     ConvertingToString()
 }
@@ -81,3 +93,17 @@ cards.forEach((card) => {
         ingTabs.style.transform = "scale(1.15)"
     }
 })
+
+let ingredientItems = document.querySelectorAll(".recipe-ingredient")
+
+ingredientItems.onclick = () =>{
+
+    if (hasIt) {
+        listItem.classList.remove("HasIt");
+        listItem.classList.add("notHasIt");
+    }
+    else {
+        listItem.classList.remove("notHasIt");
+        listItem.classList.add("HasIt");
+    }
+}

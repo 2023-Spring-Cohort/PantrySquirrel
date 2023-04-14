@@ -13,7 +13,7 @@
                 <h4 class="display-4">Welcome to Pantry Squirrel. Unleash your pantry's potential!</h4>
             </div>
         </div>
-        <input type="text" name="UserIngredients" placeholder="Your Food Items" id="UI" />
+        <input type="text" name="UserIngredients" placeholder="Your Food Items (Be Specific)" id="UI" />
         <button id="submitFoodItem" onclick="AddIngredient()">Add to List</button>
         <ul id="foodItems" name="userFoodItems"></ul>
         <input type="text" name="Filters" placeholder="Dietary Restrictions" id="diet"/>
@@ -29,7 +29,7 @@
         {
             <div class="card">
                 <a href="@r.recipe.url" target="_blank" class="img-card">
-                    <div class="link-text">Go To Recipe</div>
+                    <div class="link-text">Instructions</div>
                     <img src="@r.recipe.image">
                 </a>
                 <div class="info-card">
@@ -59,6 +59,28 @@
                             </ul>
                         </div>
                         <div class="nutrition content">
+                            <table>
+                                <tr>
+                                    <th>Nutrient</th>
+                                    <th>Amount</th>
+                                </tr>
+                                <tr>
+                                    <td>Calories</td>
+                                    <td>@Math.Round(r.recipe.totalNutrients.ENERC_KCAL.quantity) @r.recipe.totalNutrients.ENERC_KCAL.unit</td>
+                                </tr>
+                                <tr>
+                                    <td>Fat</td>
+                                    <td>@Math.Round(r.recipe.totalNutrients.FAT.quantity) @r.recipe.totalNutrients.FAT.unit</td>
+                                </tr>
+                                <tr>
+                                    <td>Sugar</td>
+                                    <td>@Math.Round(r.recipe.totalNutrients.SUGAR.quantity) @r.recipe.totalNutrients.SUGAR.unit</td>
+                                </tr>
+                                <tr>
+                                    <td>Sodium</td>
+                                    <td>@Math.Round(r.recipe.totalNutrients.NA.quantity) @r.recipe.totalNutrients.NA.unit</td>
+                                </tr>
+                            </table>
                         </div>
                     </div>
                 </div>
