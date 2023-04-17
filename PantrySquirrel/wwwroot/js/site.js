@@ -76,6 +76,7 @@ function closeNav() {
 let cards = document.querySelectorAll(".card");
 let tabs = document.querySelectorAll(".tab");
 cards.forEach((card) => {
+   
     let desTabs = card.lastElementChild.firstElementChild.nextElementSibling.firstElementChild
     let ingTabs = card.lastElementChild.firstElementChild.nextElementSibling.lastElementChild
     let desContents = card.lastElementChild.lastElementChild.firstElementChild
@@ -84,6 +85,7 @@ cards.forEach((card) => {
         ingTabs.style.transform = "";
         ingContents.style.opacity = "0";
         desContents.style.opacity = "1";
+
         desTabs.style.transform = "scale(1.15)"
     }
     ingTabs.onclick = () => {
@@ -95,15 +97,22 @@ cards.forEach((card) => {
 })
 
 let ingredientItems = document.querySelectorAll(".recipe-ingredient")
+ingredientItems.forEach((e) => {
 
-ingredientItems.onclick = () =>{
+    e.onclick = () => {
 
-    if (hasIt) {
-        listItem.classList.remove("HasIt");
-        listItem.classList.add("notHasIt");
+        if (e.classList.contains("hasIt")) {
+
+            e.classList.remove("hasIt");
+            e.classList.add("notHasIt");
+        }
+        else {
+
+            e.classList.remove("notHasIt");
+            e.classList.add("hasIt");
+                
+        }
+
     }
-    else {
-        listItem.classList.remove("notHasIt");
-        listItem.classList.add("HasIt");
-    }
-}
+
+})

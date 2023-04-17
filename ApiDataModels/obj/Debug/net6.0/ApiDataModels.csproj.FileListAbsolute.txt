@@ -82,3 +82,15 @@ C:\Users\Crumrine Financial\Desktop\PantrySquirrel\ApiDataModels\obj\Debug\net6.
 C:\Users\Crumrine Financial\Desktop\PantrySquirrel\ApiDataModels\obj\Debug\net6.0\refint\ApiDataModels.dll
 C:\Users\Crumrine Financial\Desktop\PantrySquirrel\ApiDataModels\obj\Debug\net6.0\ApiDataModels.pdb
 C:\Users\Crumrine Financial\Desktop\PantrySquirrel\ApiDataModels\obj\Debug\net6.0\ref\ApiDataModels.dll
+C:\Users\ibruh\Desktop\git repository\VS stuff\New squirrel\PantrySquirrel\ApiDataModels\bin\Debug\net6.0\ApiDataModels.deps.json
+C:\Users\ibruh\Desktop\git repository\VS stuff\New squirrel\PantrySquirrel\ApiDataModels\bin\Debug\net6.0\ApiDataModels.dll
+C:\Users\ibruh\Desktop\git repository\VS stuff\New squirrel\PantrySquirrel\ApiDataModels\bin\Debug\net6.0\ApiDataModels.pdb
+C:\Users\ibruh\Desktop\git repository\VS stuff\New squirrel\PantrySquirrel\ApiDataModels\obj\Debug\net6.0\ApiDataModels.csproj.AssemblyReference.cache
+C:\Users\ibruh\Desktop\git repository\VS stuff\New squirrel\PantrySquirrel\ApiDataModels\obj\Debug\net6.0\ApiDataModels.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ibruh\Desktop\git repository\VS stuff\New squirrel\PantrySquirrel\ApiDataModels\obj\Debug\net6.0\ApiDataModels.AssemblyInfoInputs.cache
+C:\Users\ibruh\Desktop\git repository\VS stuff\New squirrel\PantrySquirrel\ApiDataModels\obj\Debug\net6.0\ApiDataModels.AssemblyInfo.cs
+C:\Users\ibruh\Desktop\git repository\VS stuff\New squirrel\PantrySquirrel\ApiDataModels\obj\Debug\net6.0\ApiDataModels.csproj.CoreCompileInputs.cache
+C:\Users\ibruh\Desktop\git repository\VS stuff\New squirrel\PantrySquirrel\ApiDataModels\obj\Debug\net6.0\ApiDataModels.dll
+C:\Users\ibruh\Desktop\git repository\VS stuff\New squirrel\PantrySquirrel\ApiDataModels\obj\Debug\net6.0\refint\ApiDataModels.dll
+C:\Users\ibruh\Desktop\git repository\VS stuff\New squirrel\PantrySquirrel\ApiDataModels\obj\Debug\net6.0\ApiDataModels.pdb
+C:\Users\ibruh\Desktop\git repository\VS stuff\New squirrel\PantrySquirrel\ApiDataModels\obj\Debug\net6.0\ref\ApiDataModels.dll
