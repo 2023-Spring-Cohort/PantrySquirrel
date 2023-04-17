@@ -1,7 +1,7 @@
 ﻿@model ApiDataModels.RecipeModels.RecipeSearchResults
 
 <body id="browseFoodPage">
-    <div class="recipePageP">
+    @*<div class="recipePageP">
         <img id="cookShelf" src="~/images1/cookShelf 2.png" />
         <div>
             <h1 id="headerBrowse">Hungry? Check Out Some Tasty Recipes!</h1>
@@ -13,21 +13,87 @@
                 <button type="submit">Find Recipes!</button>
             </form>
         </div>
-    </div>
+    </div>*@
 
+    <div class="recipePageP">
+        <div class="center">
+            <h1 id="headerBrowse">Hungry? Check Out Some Tasty Recipes!</h1>
+            <img class="recipeIMG" src="~/images1/RECIPE BOOK (2).jpg" />
+            <form method="post" asp-controller="Home" asp-action="BrowseRecipes">
+                <input type="text" name="recipeText" placeholder="salad" id="userRecipe" />
+                <button type="submit">Find Recipes!</button>
+            </form>
+        </div>
+    </div>
 
     @if (Model is not null)
     {
-        <table>
+        <div class="card-container">
             @foreach (var r in Model.hits)
             {
-                <tr>
-                    <td>
+                <div class="card">
+                    <a href="@r.recipe.url" target="_blank" class="img-card">
+                        <div class="link-text">Instructions</div>
                         <img src="@r.recipe.image">
-                        @r.recipe.label<br>
-                    </td>
-                </tr>
+                    </a>
+
+                    <div class="info-card">
+                      
+                        <div class="name">@r.recipe.label</div>
+                        
+                        <div class="tabs">
+                            <div class="ingredients-tab tab">
+                                Ingredients
+                            </div>
+                            <div class="nutrition-tab tab">
+                                Nutritional Info
+                            </div>
+                        </div>
+                        <div class="tab-contents">
+                            <div class="ingredients content">
+                                <ul>
+                                    @foreach (var ingredient in r.recipe.ingredients)
+                                    {
+                                        if (ingredient.hasIt)
+                                        {
+                                            <li class="recipe-ingredient hasIt">@ingredient.food</li>
+                                        }
+                                        else
+                                        {
+                                            <li class="recipe-ingredient notHasIt">@ingredient.food</li>
+                                        }
+                                    }
+                                </ul>
+                            </div>
+                            <div class="nutrition content">
+                                <table>
+                                    <tr>
+                                        <th>Nutrient</th>
+                                        <th>Amount</th>
+                                    </tr>
+                                    <tr>
+                                        <td>Calories</td>
+                                        <td>@Math.Round(r.recipe.totalNutrients.ENERC_KCAL.quantity) @r.recipe.totalNutrients.ENERC_KCAL.unit</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Fat</td>
+                                        <td>@Math.Round(r.recipe.totalNutrients.FAT.quantity) @r.recipe.totalNutrients.FAT.unit</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Sugar</td>
+                                        <td>@Math.Round(r.recipe.totalNutrients.SUGAR.quantity) @r.recipe.totalNutrients.SUGAR.unit</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Sodium</td>
+                                        <td>@Math.Round(r.recipe.totalNutrients.NA.quantity) @r.recipe.totalNutrients.NA.unit</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
             }
-        </table>
+        </div>
     }
 </body>

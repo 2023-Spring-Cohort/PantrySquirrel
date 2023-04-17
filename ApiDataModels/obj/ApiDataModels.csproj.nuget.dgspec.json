@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\REPOS\\PantrySquirrel\\ApiDataModels\\ApiDataModels.csproj": {}
+    "C:\\Users\\ibruh\\Desktop\\git repository\\VS stuff\\New squirrel\\PantrySquirrel\\ApiDataModels\\ApiDataModels.csproj": {}
   },
   "projects": {
-    "C:\\REPOS\\PantrySquirrel\\ApiDataModels\\ApiDataModels.csproj": {
+    "C:\\Users\\ibruh\\Desktop\\git repository\\VS stuff\\New squirrel\\PantrySquirrel\\ApiDataModels\\ApiDataModels.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\REPOS\\PantrySquirrel\\ApiDataModels\\ApiDataModels.csproj",
+        "projectUniqueName": "C:\\Users\\ibruh\\Desktop\\git repository\\VS stuff\\New squirrel\\PantrySquirrel\\ApiDataModels\\ApiDataModels.csproj",
         "projectName": "ApiDataModels",
-        "projectPath": "C:\\REPOS\\PantrySquirrel\\ApiDataModels\\ApiDataModels.csproj",
-        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "C:\\REPOS\\PantrySquirrel\\ApiDataModels\\obj\\",
+        "projectPath": "C:\\Users\\ibruh\\Desktop\\git repository\\VS stuff\\New squirrel\\PantrySquirrel\\ApiDataModels\\ApiDataModels.csproj",
+        "packagesPath": "C:\\Users\\ibruh\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ibruh\\Desktop\\git repository\\VS stuff\\New squirrel\\PantrySquirrel\\ApiDataModels\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\ibruh\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -65,7 +61,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }
