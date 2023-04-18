@@ -81,18 +81,28 @@ cards.forEach((card) => {
     let ingTabs = card.lastElementChild.firstElementChild.nextElementSibling.lastElementChild
     let desContents = card.lastElementChild.lastElementChild.firstElementChild
     let ingContents = card.lastElementChild.lastElementChild.lastElementChild
+
+
     desTabs.onclick = () => {
         ingTabs.style.transform = "";
         ingContents.style.opacity = "0";
         desContents.style.opacity = "1";
-
+        
         desTabs.style.transform = "scale(1.15)"
+
+        desContents.style.zIndex = "2";
+        ingContents.style.zIndex = "-1";
     }
     ingTabs.onclick = () => {
         desTabs.style.transform = "";
         desContents.style.opacity = "0";
         ingContents.style.opacity = "1";
+
         ingTabs.style.transform = "scale(1.15)"
+
+        ingContents.style.zIndex = "2";
+        desContents.style.zIndex = "-1";
+
     }
 })
 
